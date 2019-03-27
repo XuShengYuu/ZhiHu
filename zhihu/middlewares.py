@@ -97,7 +97,7 @@ class ZhihuDownloaderMiddleware(object):
         # - return None: continue processing this exception
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
-        pass
-
+        for r in start_requests:
+            yield r
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)

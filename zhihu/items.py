@@ -8,7 +8,7 @@
 # import scrapy
 from scrapy import Item, Field
 
-class UserItem(scrapy.Item):
+class UserItem(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     id = Field()
@@ -23,11 +23,6 @@ class UserItem(scrapy.Item):
     follower_count = Field()
     gender = Field()
     headline = Field()
-    is_advertiser = Field()
-    is_blocking = Field()
-    is_followed = Field()
-    is_following = Field()
-    is_org = Field()
     type = Field()
     url = Field()
     url_token = Field()

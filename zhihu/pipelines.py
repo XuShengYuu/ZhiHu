@@ -35,3 +35,4 @@ class MongoPipeline(object):
     def process_item(self, item, spider):
         self.db['user'].update({'url_token':item['url_token']},{'$set':item},True)
         return item
+    
