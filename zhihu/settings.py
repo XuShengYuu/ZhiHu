@@ -97,7 +97,6 @@ MONGO_DATABASE = 'zhihu'
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
-
 REDIS_URL = 'redis://localhost:redistext@localhost:6979'
 
 # SCHEDULER_PERSIST = True
