@@ -97,7 +97,7 @@ MONGO_DATABASE = 'zhihu'
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
-REDIS_URL = 'redis://:123456@192.168.31.46:6379'
+REDIS_URL = 'redis://:123456@113.78.185.154:6379'
 
 # REDIS_HOST = '192.168.31.46'
 # REDIS_PORT = 6379
